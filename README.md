@@ -2,8 +2,8 @@
 **Tech Challenge - Phase 3 - Graduate/Pós-Graduação**
 
 * GitHub Repository: https://github.com/alexgrds/parkimeter-graduate
-* Swagger Local: http://localhost:8080/swagger-ui/index.html
-* Swagger: https://parkingmeter-e2kw5mlx.b4a.run/swagger-ui/index.html
+* Swagger local: http://localhost:8080/swagger-ui/index.html
+* Swagger remotely: https://parkingmeter-e2kw5mlx.b4a.run/swagger-ui/index.html
            
 
 ## About :book:
