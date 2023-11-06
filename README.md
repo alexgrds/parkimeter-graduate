@@ -91,6 +91,9 @@ In this configuration we can change the metric for CPU or Memory, and the maximu
 To test remotely We perform the deployment on back4app.
 Swagger: https://parkingmeter-e2kw5mlx.b4a.run/swagger-ui/index.html
 
+Please wait a few moments after the request to restart, as in Back4App free tier, the container goes into sleep mode after 30 minutes without a request
+<img src="./Documents/SleepingContainerApp.png" alt="SleepingContainerApp" style="zoom: 100%;" />
+
 
 ## Challenges
 
