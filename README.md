@@ -3,7 +3,7 @@
 
 * GitHub Repository: https://github.com/alexgrds/parkimeter-graduate
 * Swagger: http://localhost:8080/swagger-ui/index.html
-    * https://parkingmeter-e2kw5mlx.b4a.run/swagger-ui/index.html
+           https://parkingmeter-e2kw5mlx.b4a.run/swagger-ui/index.html
 
 ## About :book:
 
