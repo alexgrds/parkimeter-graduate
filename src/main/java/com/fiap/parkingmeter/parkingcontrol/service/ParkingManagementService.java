@@ -55,7 +55,7 @@ public class ParkingManagementService {
         Vehicle vehicle = vehicleService.findById(parkingVehicleDto.vehicleId());
         
         // if the driver does not have a payment method, stop the process
-        // if the payment type is PIX and the parking type is fix, then stop the process
+        // if the payment type is NOT PIX and the parking type is fix, then stop the process
         validatePayment(parkingVehicleDto, vehicle);
 
         ParkingVehicle parkingVehicle = new ParkingVehicle(vehicle, LocalDateTime.now(), parkingVehicleDto);
@@ -69,8 +69,8 @@ public class ParkingManagementService {
         
         String paymentType = vehicle.getDriver().getPreferredPaymentMethod().getPaymentType();
         String parkingType = parkingVehicleDto.parkingType().getType();
-        if (paymentType.equalsIgnoreCase("PIX") && parkingType.equalsIgnoreCase("FIX"))
-            throw new IllegalStateException("For FIX period, only CREDIT/DEBIT options are allowed");
+        if (!paymentType.equalsIgnoreCase("PIX") && parkingType.equalsIgnoreCase("FIX"))
+            throw new IllegalStateException("For FIX period, only PIX option is allowed");
     }
 
     public ParkingVehicle endParking(String vehicleId) {

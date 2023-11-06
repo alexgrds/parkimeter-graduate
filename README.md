@@ -1,8 +1,9 @@
 # Parking Meter :car: :bar_chart:
 **Tech Challenge - Phase 3 - Graduate/Pós-Graduação**
 
-GitHub Repository: https://github.com/igorgrv/parkingmeter-graduate
-Swagger: http://localhost:8080/swagger-ui/index.html
+* GitHub Repository: https://github.com/igorgrv/parkingmeter-graduate
+* Swagger: http://localhost:8080/swagger-ui/index.html
+    * https://parkingmeter-e2kw5mlx.b4a.run/swagger-ui/index.html
 
 ## About :book:
 
@@ -13,6 +14,7 @@ Welcome to Parking Meter Monitor! An innovative project that combines the powerf
 * Maven; 
 * Spring Boot;
 * Spring Validation;
+* Spring Scheduler;
 * Lombok;
 
 ## Working with MongoDB
@@ -57,7 +59,7 @@ use parking-meter
 |:-------------------:|:---------------------------------------------------|
 |   **`Login URL`**   | https://850055427903.signin.aws.amazon.com/console |
 |     **`User`**      | fiap-professor                                     |
-|   **`Password`**    | w36H)87#                                           |
+|   **`Password`**    | Check PDF                                          |
 | **`Access Policy`** | ReadOnlyAccess                                     |
 |    **`Region`**     | North Virginia                                     |
 
