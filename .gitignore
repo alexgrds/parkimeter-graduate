@@ -33,4 +33,5 @@ build/
 .vscode/
 wrapper
 
+.DS_Store
 *application-local.yaml
