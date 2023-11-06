@@ -1,7 +1,7 @@
 # Parking Meter :car: :bar_chart:
 **Tech Challenge - Phase 3 - Graduate/Pós-Graduação**
 
-* GitHub Repository: https://github.com/igorgrv/parkingmeter-graduate
+* GitHub Repository: https://github.com/alexgrds/parkimeter-graduate
 * Swagger: http://localhost:8080/swagger-ui/index.html
     * https://parkingmeter-e2kw5mlx.b4a.run/swagger-ui/index.html
 
